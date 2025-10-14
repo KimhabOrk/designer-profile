@@ -22,8 +22,8 @@ export default function FashionShowPage() {
                 Go Back
               </Button>
             </Link>
-            <h1 className="font-serif text-4xl md:text-5xl md:text-6xl font-bold mb-4">Fashion Show Designers</h1>
-            <p className="text-lg text-muted-foreground max-w-2xl">
+            <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-bold mb-4">Fashion Show Designers</h1>
+            <p className="text-lg md:text-2xl text-muted-foreground max-w-2xl">
               Meet the visionary designers showcasing their collections on October 31st
             </p>
           </div>
@@ -33,16 +33,16 @@ export default function FashionShowPage() {
             {designers.map((designer) => (
               <Link key={designer.id} href={`/show/designer/${designer.id}`} className="group">
                 <div className="transition-all hover:shadow-xl overflow-hidden p-0">
-                  <div className="relative aspect-square bg-muted">
+                  <div className="relative aspect-square bg-muted rounded-xl">
                     <Image
                       src={designer.image || "/placeholder-designer.jpg"}
                       alt={designer.name}
                       fill
-                      className="object-cover transition-transform group-hover:scale-105"
+                      className="object-cover rounded-xl"
                     />
                   </div>
                   <div className="p-6 text-center">
-                    <h3 className="font-serif text-xl font-semibold group-hover:text-primary transition-colors">
+                    <h3 className="font-serif text-2xl md:text-3xl font-semibold group-hover:text-primary transition-colors">
                       {designer.name}
                     </h3>
                   </div>

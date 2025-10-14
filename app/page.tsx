@@ -42,7 +42,10 @@ export default function HomePage() {
                   <div key={event.id} className="border-l-2 border-primary/20 pl-6">
                     <h3 className="font-semibold text-lg mb-2">{event.name}</h3>
                     <p className="text-muted-foreground text-sm mb-1">
-                      {event.dateRange || `${event.date}, ${event.time}`}
+                      {event.dateRange || `${event.date}`}
+                    </p>
+                    <p className="text-muted-foreground text-sm mb-1">
+                      Start: <span className="font-semibold">{event.time}</span>
                     </p>
                     <p className="text-sm text-muted-foreground">{event.description}</p>
                   </div>
@@ -52,13 +55,15 @@ export default function HomePage() {
 
             {/* Location */}
             <Card className="p-8 lg:p-10 bg-muted">
-              <div className="flex items-start gap-4 mb-6">
-                <div className="p-3 bg-primary rounded-lg">
-                  <MapPin className="h-6 w-6 text-white" />
+              <h2 className="font-serif text-2xl font-semibold mb-6">Location</h2>
+              <Link href="https://maps.app.goo.gl/nn8tRwJVq3tqJG7NA">
+                <div className="flex items-start mx-auto justify-center gap-4 ">
+                  <div className="h-7 w-7 rounded-lg">
+                    <Image src="/googleMap.png" className="object-cover animate-bounce" />
+                  </div>
+                  <p className="text-lg font-medium mb-6">{festival.location}</p>
                 </div>
-                <h2 className="font-serif text-2xl font-semibold">Location</h2>
-              </div>
-              <p className="text-lg font-medium mb-6">{festival.location}</p>
+              </Link>
               <div className="relative aspect-video rounded-lg overflow-hidden bg-muted">
                 <Image
                   src={festival.mapImage || "/placeholder.svg"}
