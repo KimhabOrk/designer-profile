@@ -26,7 +26,7 @@ export default function HomePage() {
       </section>
 
       {/* Event Details Section */}
-      <section className="py-16 px-4 md:px-6 lg:px-8 bg-black">
+      <section className="py-16 px-4 md:px-6 lg:px-8">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Dates */}
@@ -53,8 +53,8 @@ export default function HomePage() {
             {/* Location */}
             <Card className="p-8 lg:p-10 bg-muted">
               <div className="flex items-start gap-4 mb-6">
-                <div className="p-3 bg-primary/10 rounded-lg">
-                  <MapPin className="h-6 w-6 text-primary" />
+                <div className="p-3 bg-primary rounded-lg">
+                  <MapPin className="h-6 w-6 text-white" />
                 </div>
                 <h2 className="font-serif text-2xl font-semibold">Location</h2>
               </div>
@@ -75,7 +75,7 @@ export default function HomePage() {
       {/* Event Categories Section */}
       <section className="py-16 px-4 md:px-6 lg:px-8">
         <div className="container mx-auto">
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+          <div className="grid grid-cols-2 gap-8 lg:gap-12">
             {/* Fashion Show */}
             <Link href="/show" className="group">
               <div className="overflow-hidden h-full transition-all hover:shadow-xl">

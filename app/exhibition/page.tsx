@@ -29,16 +29,16 @@ export default function FashionExhibitionPage() {
           </div>
 
           {/* Garments Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 lg:gap-8">
             {garments.map((garment) => (
               <Link key={garment.id} href={`/exhibition/garment/${garment.id}`} className="group">
                 <div className="transition-all hover:shadow-xl overflow-hidden p-0">
-                  <div className="relative aspect-[9/16] bg-muted">
+                  <div className="relative aspect-[9/16] bg-muted rounded-xl">
                     <Image
                       src={garment.images[0] || "/placeholder-designer.jpg"}
                       alt={garment.name}
                       fill
-                      className="object-cover transition-transform group-hover:scale-105"
+                      className="object-cover transition-transform group-hover:scale-105 rounded-xl"
                     />
                   </div>
                   <div className="p-5">
