@@ -46,7 +46,7 @@ export default function GarmentDetailPage({ params }: { params: { id: string } }
                   <Link href={`/show/designer/${garment.designerId}`} className="flex items-center gap-4 group">
                     <div className="relative w-24 h-24 rounded-full overflow-hidden bg-muted">
                       <Image
-                        src={garment.designerImage || "/placeholder.svg"}
+                        src={garment.designerImage || "/placeholder-designer.jpg"}
                         alt={garment.designerName}
                         fill
                         className="object-cover"
@@ -61,7 +61,7 @@ export default function GarmentDetailPage({ params }: { params: { id: string } }
                   <div className="flex items-center gap-4 group">
                     <div className="relative w-24 h-24 rounded-full overflow-hidden bg-muted">
                       <Image
-                        src={garment.designerImage || "/placeholder.svg"}
+                        src={garment.designerImage || "/placeholder-designer.jpg"}
                         alt={garment.designerName}
                         fill
                        className="object-cover"
@@ -87,7 +87,7 @@ export default function GarmentDetailPage({ params }: { params: { id: string } }
             {/* Main Image */}
             <div>
               <Card className="mb-4 overflow-hidden p-0">
-                <div className="relative aspect-[3/4] bg-muted">
+                <div className="relative aspect-[3/2] bg-muted">
                   <Image
                     src={garment.images[0] || "/placeholder.svg"}
                     alt={garment.name}
@@ -99,12 +99,12 @@ export default function GarmentDetailPage({ params }: { params: { id: string } }
 
               {/* Additional Images */}
               {garment.images && garment.images.length > 0 && (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 md:gap-6 gap-4">
                 {garment.images.slice(1).map((image, index) => (
                   <Card key={index} className="overflow-hidden p-0">
-                    <div className="relative aspect-[3/4] bg-muted">
+                    <div className="relative aspect-[3/2] bg-muted">
                       <Image
-                        src={image || "/placeholder.svg"}
+                        src={image || "/placeholder-designer.jpg"}
                         alt={`${garment.name} detail ${index + 2}`}
                         fill
                         className="object-cover"

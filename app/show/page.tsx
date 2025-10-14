@@ -33,9 +33,9 @@ export default function FashionShowPage() {
             {designers.map((designer) => (
               <Link key={designer.id} href={`/show/designer/${designer.id}`} className="group">
                 <div className="transition-all hover:shadow-xl overflow-hidden p-0">
-                  <div className="relative aspect-[3/4] bg-muted">
+                  <div className="relative aspect-square bg-muted">
                     <Image
-                      src={designer.image || "/placeholder.svg"}
+                      src={designer.image || "/placeholder-designer.jpg"}
                       alt={designer.name}
                       fill
                       className="object-cover transition-transform group-hover:scale-105"

@@ -35,7 +35,7 @@ export default function DesignerDetailPage({ params }: { params: { id: string } 
           </Link>
 
           {/* Designer Profile */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:8 mb-12">
+          <div className="grid grid-cols-2 gap-4 md:8 mb-12">
             {/* Image */}
             <div className="">
               <Card className="overflow-hidden p-0">
