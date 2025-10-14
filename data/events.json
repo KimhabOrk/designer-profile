@@ -1,0 +1,299 @@
+{
+  "festival": {
+    "name": "PHNOM PENH DESIGN FESTIVAL",
+    "location": "The Factory, Phnom Penh",
+    "mapImage": "/map.jpg"
+  },
+  "events": [
+    {
+      "id": "fashion-show",
+      "name": "Fashion Show",
+      "date": "31st of October",
+      "time": "7:00 PM",
+      "description": "The debut of a New Generation of designers and the birth of their legacy."
+    },
+    {
+      "id": "fashion-exhibition",
+      "name": "Fashion Exhibition",
+      "dateRange": "31st of October to 02nd of November",
+      "description": "A curated exhibition showcasing artistic, avant-garde and innovative garments."
+    }
+  ],
+  "designers": [
+    {
+      "id": "designer-1",
+      "name": "Pon Chamreun",
+      "image": "",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "collectionConcept": ""
+    },
+    {
+      "id": "designer-2",
+      "name": "Nath Teresa",
+      "image": "",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "collectionConcept": ""
+    },
+    {
+      "id": "designer-3",
+      "name": "Lai Engchhing",
+      "image": "",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "collectionConcept": ""
+    },
+    {
+      "id": "designer-4",
+      "name": "Chea Tichheang",
+      "image": "",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "collectionConcept": ""
+    },
+    {
+      "id": "designer-5",
+      "name": "Chun Sinadanisa",
+      "image": "",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "collectionConcept": ""
+    }
+  ],
+  "garments": [
+
+
+    {
+      "id": "garment-1",
+      "designerId": "designer-1",
+      "designerName": "Pon Chamreun",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/IMG_20250802_162844_vmJA4cxKF.jpg?updatedAt=1754127259174",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/27a77a11009caf0bde99eb7045e51020.jpg?updatedAt=1759882040368",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/a42f04f1935f2cd854a07d781ab5d22b.jpg?updatedAt=1759882039783"
+      ]
+    },
+    {
+      "id": "garment-2",
+      "designerId": "designer-1",
+      "designerName": "Pon Chamreun",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/IMG_20250802_163200_XPtygDpPr.jpg?updatedAt=1754127258770",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/a7d3b81b7b1c4bc6eb648174f6944c32.jpg?updatedAt=1759882039804",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/7cf540d33fb230065c641d1e61a36602.jpg?updatedAt=1759882038977"
+      ]
+    },
+    {
+      "id": "garment-3",
+      "designerId": "designer-4",
+      "designerName": "Chea Tichheang",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/4f2ee312dedd9f59ad2f087c6a8d21de.jpg?updatedAt=1759882041594",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "garment-4",
+      "designerId": "designer-2",
+      "designerName": "Nath Teresa",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/e58cd128b56d97490f1b98664202d1f4.jpg?updatedAt=1759882034473",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "garment-5",
+      "designerId": "",
+      "designerName": "Pheng Vanton",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/IMG_20250802_162802_mkahiPo7a.jpg",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/b2f408090219cca7304e6452ee59074c.jpg?updatedAt=1759882039317",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/4f2f75dd5d6f21ca5ef77928e77b85fa.jpg?updatedAt=1759882039681"
+      ]
+    },
+    {
+      "id": "garment-6",
+      "designerId": "",
+      "designerName": "Channy Vicheka",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/8cc4b10e8184aeb541a540ec3f7e186e.jpg?updatedAt=1759882032157",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/8e83eadf952a5037cb1f4925b3f5c8a2.jpg?updatedAt=1759882001931",
+        ""
+      ]
+    },
+    {
+      "id": "garment-7",
+      "designerId": "",
+      "designerName": "Kar Venmeng",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/741c5ebfc999b58321805fc63f74e0ad.jpg?updatedAt=1759882041591",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/53a184895149f4a49b7dbb1baa9b70c8.jpg?updatedAt=1759882040595",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/605ea22a272f9aee17ebce1eb43321ef.jpg?updatedAt=1759882041175",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/20d1d3d8f24f6dc53b74d5b61f2422b4.jpg?updatedAt=1759882040736",
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/IMG_20250802_162814_8XDX6Nn4F.jpg?updatedAt=1754127259219"
+      ]
+    },
+    {
+      "id": "garment-8",
+      "designerId": "",
+      "designerName": "Hang Amara",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/8840ae359a2ebac6b41bee5dda9a7e9d.jpg?updatedAt=1759882037601",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/457ad3cc86bdd83ab96c7a8e117548f4.jpg?updatedAt=1759882001029",
+        ""
+      ]
+    },
+    {
+      "id": "garment-9",
+      "designerId": "",
+      "designerName": "Saing Soniran",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/2fb470804d19a986ded4c8caa29ea337.jpg?updatedAt=1759882001901",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "garment-10",
+      "designerId": "",
+      "designerName": "Eam Mary",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/IMG_20250802_163219_fOcgoz2IO.jpg?updatedAt=1754127255252",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/7f8fadd9650893b465f2e7b277f2b527.jpg?updatedAt=1759882003109",
+        ""
+      ]
+    },
+    {
+      "id": "garment-11",
+      "designerId": "",
+      "designerName": "Eam Mary",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/IMG_20250802_163141_U9tpGa1Jh.jpg?updatedAt=1754127259187",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/64fa1392de565de7631b708e549ab272.jpg?updatedAt=1759882037676",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/d31fd2bbe22eb0aa58a9b4c42af91257.jpg?updatedAt=1759882036903"
+      ]
+    },
+    {
+      "id": "garment-12",
+      "designerId": "",
+      "designerName": "Eam Mary",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/IMG_20250802_163635_hz3EoH48J.jpg?updatedAt=1754127415025",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/283082902f943e7a6ff37b4de61c8a76.jpg?updatedAt=1759882038163",
+        "https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/5403fc65f4bdbe5cd4fd334b4bc29d63.jpg?updatedAt=1759882037359"
+      ]
+    },
+    {
+      "id": "garment-13",
+      "designerId": "",
+      "designerName": "Ouk Reaksmey",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/IMG_20250802_163239_8cA6BeLDb.jpg?updatedAt=1754127258974",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "garment-14",
+      "designerId": "",
+      "designerName": "Ouk Reaksmey",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/IMG_20250802_163019_qwX6KGhui1.jpg?updatedAt=1754127259148",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "garment-15",
+      "designerId": "",
+      "designerName": "Ouk Reaksmey",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/IMG_20250802_163035_joqbVmMhAw.jpg?updatedAt=1754127259072",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "garment-16",
+      "designerId": "",
+      "designerName": "Rith Chanmonyta",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "garment-17",
+      "designerId": "",
+      "designerName": "Rith Chanmonyta",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": "garment-18",
+      "designerId": "",
+      "designerName": "Rith Chanmonyta",
+      "designerImage": "",
+      "name": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "images": [
+        "https://ik.imagekit.io/digiv3rse/assets/ppfi/-6109538752213925083_121_XGs7D3tVQ.jpg?updatedAt=1747145165423",
+        "",
+        ""
+      ]
+    }
+  ]
+}
