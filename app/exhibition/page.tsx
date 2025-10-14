@@ -33,7 +33,7 @@ export default function FashionExhibitionPage() {
             {garments.map((garment) => (
               <Link key={garment.id} href={`/exhibition/garment/${garment.id}`} className="group">
                 <div className="transition-all hover:shadow-xl overflow-hidden p-0">
-                  <div className="relative aspect-[3/2] bg-muted">
+                  <div className="relative aspect-[9/16] bg-muted">
                     <Image
                       src={garment.images[0] || "/placeholder-designer.jpg"}
                       alt={garment.name}

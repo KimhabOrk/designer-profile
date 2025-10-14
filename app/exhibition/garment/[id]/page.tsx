@@ -87,7 +87,7 @@ export default function GarmentDetailPage({ params }: { params: { id: string } }
             {/* Main Image */}
             <div>
               <Card className="mb-4 overflow-hidden p-0">
-                <div className="relative aspect-[3/2] bg-muted">
+                <div className="relative aspect-[9/16] bg-muted">
                   <Image
                     src={garment.images[0] || "/placeholder.svg"}
                     alt={garment.name}
@@ -102,7 +102,7 @@ export default function GarmentDetailPage({ params }: { params: { id: string } }
               <div className="grid grid-cols-2 md:gap-6 gap-4">
                 {garment.images.slice(1).map((image, index) => (
                   <Card key={index} className="overflow-hidden p-0">
-                    <div className="relative aspect-[3/2] bg-muted">
+                    <div className="relative aspect-[9/16] bg-muted">
                       <Image
                         src={image || "/placeholder-designer.jpg"}
                         alt={`${garment.name} detail ${index + 2}`}
