@@ -86,13 +86,14 @@ export default function HomePage() {
                     fill
                     className="object-cover transition-transform group-hover:scale-105 rounded-xl"
                   />
-                  <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-8 text-white" />
-                  <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-8 max-w-md text-center">
-                    <h2 className="font-serif text-4xl font-bold mb-3">Fashion Show</h2>
-                    <Button variant="default" className="group-hover:gap-3 transition-all">
-                      View Designers
-                      <ArrowRight className="h-4 w-4 ml-2" />
-                    </Button>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-8 text-white">
+                    <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-8 max-w-md text-center">
+                      <h2 className="font-serif text-4xl font-bold mb-3">Fashion Show</h2>
+                      <Button variant="default" className="group-hover:gap-3 transition-all">
+                        View Designers
+                        <ArrowRight className="h-4 w-4 ml-2" />
+                      </Button>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -108,13 +109,14 @@ export default function HomePage() {
                     fill
                     className="object-cover transition-transform group-hover:scale-105 rounded-xl"
                   />
-                  <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-8 text-white" />
-                  <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-8 max-w-md text-center">
-                    <h2 className="font-serif text-4xl font-bold mb-3">Fashion Exhibition</h2>
-                    <Button variant="default" className="group-hover:gap-3 transition-all">
-                      View Exhibition
-                      <ArrowRight className="h-4 w-4 ml-2" />
-                    </Button>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-8 text-white">
+                    <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-8 max-w-md text-center">
+                      <h2 className="font-serif text-4xl font-bold mb-3">Fashion Exhibition</h2>
+                      <Button variant="default" className="group-hover:gap-3 transition-all">
+                        View Exhibition
+                        <ArrowRight className="h-4 w-4 ml-2" />
+                      </Button>
+                    </div>
                   </div>
                 </div>
               </div>
