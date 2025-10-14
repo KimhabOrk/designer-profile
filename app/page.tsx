@@ -26,11 +26,11 @@ export default function HomePage() {
       </section>
 
       {/* Event Details Section */}
-      <section className="py-16 px-4 md:px-6 lg:px-8 bg-muted/30">
+      <section className="py-16 px-4 md:px-6 lg:px-8 bg-black">
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Dates */}
-            <Card className="p-8 lg:p-10">
+            <Card className="p-8 lg:p-10 bg-muted">
               <div className="flex items-start gap-4 mb-6">
                 <div className="p-3 bg-primary/10 rounded-lg">
                   <Calendar className="h-6 w-6 text-primary" />
@@ -51,7 +51,7 @@ export default function HomePage() {
             </Card>
 
             {/* Location */}
-            <Card className="p-8 lg:p-10">
+            <Card className="p-8 lg:p-10 bg-muted">
               <div className="flex items-start gap-4 mb-6">
                 <div className="p-3 bg-primary/10 rounded-lg">
                   <MapPin className="h-6 w-6 text-primary" />
@@ -79,7 +79,7 @@ export default function HomePage() {
             {/* Fashion Show */}
             <Link href="/show" className="group">
               <div className="overflow-hidden h-full transition-all hover:shadow-xl">
-                <div className="relative aspect-[4/5] bg-muted rounded-xl">
+                <div className="relative aspect-[3/2] bg-muted rounded-xl">
                   <Image
                     src="https://ik.imagekit.io/digiv3rse/assets/student-works/Fashion/bb6b72cc3bb79a94dbd0f6273063078e.jpg"
                     alt="Fashion Show"
@@ -102,7 +102,7 @@ export default function HomePage() {
             {/* Fashion Exhibition */}
             <Link href="/exhibition" className="group">
               <div className="overflow-hidden h-full transition-all hover:shadow-xl">
-                <div className="relative aspect-[4/5] bg-muted rounded-xl">
+                <div className="relative aspect-[3/2] bg-muted rounded-xl">
                   <Image
                     src="https://ik.imagekit.io/digiv3rse/assets/img/exhibition.png"
                     alt="Fashion Exhibition"
