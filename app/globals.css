@@ -18,8 +18,8 @@
   --secondary: oklch(0.88 0.08 300);
   --secondary-foreground: oklch(0.2 0.02 280);
   /* Warm peachy muted tones */
-  --muted: oklch(0.94 0.02 60);
-  --muted-foreground: oklch(0.48 0.03 280);
+  --muted: oklch(0.872 0.0106 261.79);
+  --muted-foreground: oklch(0.1577 0 0);
   /* Vibrant coral accent */
   --accent: oklch(0.75 0.15 35);
   --accent-foreground: oklch(0.99 0.005 85);
@@ -130,6 +130,6 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground px-[0.5rem];
+    @apply bg-background text-foreground;
   }
 }

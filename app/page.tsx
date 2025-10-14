@@ -30,7 +30,7 @@ export default function HomePage() {
         <div className="container mx-auto">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Dates */}
-            <Card className="p-8 lg:p-10 bg-muted">
+            <Card className="p-4 md:p-6 bg-muted">
               <div className="flex items-start gap-4 mb-6">
                 <div className="p-3 bg-primary/10 rounded-lg">
                   <Calendar className="h-6 w-6 text-primary" />
@@ -54,11 +54,11 @@ export default function HomePage() {
             </Card>
 
             {/* Location */}
-            <Card className="p-8 lg:p-10 bg-muted">
+            <Card className="p-4 md:p-6 bg-muted">
               <h2 className="font-serif text-2xl font-semibold mb-6">Location</h2>
               <Link href="https://maps.app.goo.gl/nn8tRwJVq3tqJG7NA">
-                <div className="flex items-start mx-auto justify-center gap-4 ">
-                  <div className="h-7 w-7 rounded-lg">
+                <div className="flex items-start mx-auto justify-center gap-2">
+                  <div className="h-8 w-8 md:h-10 md:w-10 rounded-lg">
                     <Image src="/googleMap.png" className="object-cover animate-bounce" />
                   </div>
                   <p className="text-lg font-medium mb-6">{festival.location}</p>
@@ -80,7 +80,7 @@ export default function HomePage() {
       {/* Event Categories Section */}
       <section className="py-16 px-4 md:px-6 lg:px-8">
         <div className="container mx-auto">
-          <div className="grid grid-cols-2 gap-8 lg:gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 lg:gap-12">
             {/* Fashion Show */}
             <Link href="/show" className="group">
               <div className="overflow-hidden h-full transition-all hover:shadow-xl">
@@ -91,9 +91,9 @@ export default function HomePage() {
                     fill
                     className="object-cover transition-transform group-hover:scale-105 rounded-xl"
                   />
-                  <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-8 text-white">
-                    <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-8 max-w-md text-center">
-                      <h2 className="font-serif text-4xl font-bold mb-3">Fashion Show</h2>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-4 md:p-6 text-white">
+                    <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-2 md:p-4 max-w-md text-center">
+                      <h2 className="font-serif text-2xl md:text-3xl font-bold mb-3">Fashion Show</h2>
                       <Button variant="default" className="group-hover:gap-3 transition-all">
                         View Designers
                         <ArrowRight className="h-4 w-4 ml-2" />
@@ -114,9 +114,9 @@ export default function HomePage() {
                     fill
                     className="object-cover transition-transform group-hover:scale-105 rounded-xl"
                   />
-                  <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-8 text-white">
-                    <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-8 max-w-md text-center">
-                      <h2 className="font-serif text-4xl font-bold mb-3">Fashion Exhibition</h2>
+                  <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-4 md:p-6 text-white">
+                    <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-2 md:p-4 max-w-md text-center">
+                      <h2 className="font-serif text-2xl md:text-3xl font-bold mb-3">Fashion Exhibition</h2>
                       <Button variant="default" className="group-hover:gap-3 transition-all">
                         View Exhibition
                         <ArrowRight className="h-4 w-4 ml-2" />
