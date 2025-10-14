@@ -56,8 +56,8 @@ export default function HomePage() {
             {/* Location */}
             <Card className="p-4 md:p-6 bg-muted">
               <h2 className="font-serif text-2xl font-semibold mb-6">Location</h2>
-              <Link href="https://maps.app.goo.gl/nn8tRwJVq3tqJG7NA">
-                <div className="flex items-start mx-auto justify-center gap-2">
+              <Link href="https://maps.app.goo.gl/nn8tRwJVq3tqJG7NA" className="flex justify-start">
+                <div className="flex items-center mx-auto justify-center gap-2">
                   <div className="h-8 w-8 md:h-10 md:w-10 rounded-lg">
                     <Image src="/googleMap.png" className="object-cover animate-bounce" />
                   </div>
