@@ -14,7 +14,7 @@ export default function HomePage() {
       <Navigation />
 
       {/* Hero Section */}
-      <section className="pt-32 pb-20 px-4 md:px-6 lg:px-8">
+      <section className="pt-32 pb-12 px-4 md:px-6 lg:px-8">
         <div className="container mx-auto text-center">
           <h1 className="font-serif text-5xl md:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-balance mb-6">
             {festival.name}
@@ -27,9 +27,9 @@ export default function HomePage() {
       </section>
 
       {/* Event Details Section */}
-      <section className="py-16 px-4 md:px-6 lg:px-8">
+      <section className="py-14 px-4 md:px-6 lg:px-8">
         <div className="container mx-auto">
-          <h2 className="font-serif text-2xl font-semibold">Event Date</h2>
+          <h2 className="font-serif text-2xl font-semibold mb-6">Event Date</h2>
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Dates */}
             <div className="grid grid-cols-2 gap-4">

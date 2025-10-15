@@ -24,7 +24,7 @@ export default function DesignerDetailPage({ params }: { params: { id: string } 
     <div className="min-h-screen">
       <Navigation />
 
-      <div className="pt-24 pb-20 px-4 md:px-6 lg:px-8">
+      <div className="pt-20 pb-20 px-4 md:px-6 lg:px-8">
         <div className="container mx-auto max-w-5xl">
           {/* Back Button */}
           <Link href="/show">

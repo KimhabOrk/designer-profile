@@ -70,7 +70,7 @@
       "id": "garment-1",
       "designerId": "designer-1",
       "designerName": "Pon Chamreun",
-      "designerImage": "",
+      "designerImage": "/designers/pon-chamreun.jpg",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -83,7 +83,7 @@
       "id": "garment-2",
       "designerId": "designer-1",
       "designerName": "Pon Chamreun",
-      "designerImage": "",
+      "designerImage": "/designers/pon-chamreun.jpg",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -96,7 +96,7 @@
       "id": "garment-3",
       "designerId": "designer-4",
       "designerName": "Chea Tichheang",
-      "designerImage": "",
+      "designerImage": "/designers/chea-tichheang.jpg",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -107,7 +107,7 @@
       "id": "garment-4",
       "designerId": "designer-2",
       "designerName": "Nath Teresa",
-      "designerImage": "",
+      "designerImage": "/designers/nath-teresa.jpg",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -179,9 +179,9 @@
     },
     {
       "id": "garment-10",
-      "designerId": "",
+      "designerId": "designer-6",
       "designerName": "Eam Mary",
-      "designerImage": "",
+      "designerImage": "https://ik.imagekit.io/digiv3rse/assets/designers/em-marie.jpg",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -191,9 +191,9 @@
     },
     {
       "id": "garment-11",
-      "designerId": "",
+      "designerId": "designer-6",
       "designerName": "Eam Mary",
-      "designerImage": "",
+      "designerImage": "https://ik.imagekit.io/digiv3rse/assets/designers/em-marie.jpg",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -204,9 +204,9 @@
     },
     {
       "id": "garment-12",
-      "designerId": "",
+      "designerId": "designer-6",
       "designerName": "Eam Mary",
-      "designerImage": "",
+      "designerImage": "https://ik.imagekit.io/digiv3rse/assets/designers/em-marie.jpg",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -219,7 +219,7 @@
       "id": "garment-13",
       "designerId": "",
       "designerName": "Ouk Reaksmey",
-      "designerImage": "",
+      "designerImage": "https://ik.imagekit.io/digiv3rse/assets/designers/reaksmey.jpg",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -231,7 +231,7 @@
       "id": "garment-14",
       "designerId": "",
       "designerName": "Ouk Reaksmey",
-      "designerImage": "",
+      "designerImage": "https://ik.imagekit.io/digiv3rse/assets/designers/reaksmey.jpg?updatedAt=1760509850182",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -242,7 +242,7 @@
       "id": "garment-15",
       "designerId": "",
       "designerName": "Ouk Reaksmey",
-      "designerImage": "",
+      "designerImage": "https://ik.imagekit.io/digiv3rse/assets/designers/reaksmey.jpg?updatedAt=1760509850182",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -253,7 +253,7 @@
       "id": "garment-16",
       "designerId": "",
       "designerName": "Rith Chanmonyta",
-      "designerImage": "",
+      "designerImage": "https://ik.imagekit.io/digiv3rse/assets/designers/nyta.jpg?updatedAt=1760509834171",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -266,7 +266,7 @@
       "id": "garment-17",
       "designerId": "",
       "designerName": "Rith Chanmonyta",
-      "designerImage": "",
+      "designerImage": "https://ik.imagekit.io/digiv3rse/assets/designers/nyta.jpg?updatedAt=1760509834171",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
@@ -279,7 +279,7 @@
       "id": "garment-18",
       "designerId": "",
       "designerName": "Rith Chanmonyta",
-      "designerImage": "",
+      "designerImage": "https://ik.imagekit.io/digiv3rse/assets/designers/nyta.jpg?updatedAt=1760509834171",
       "name": "Lorem Ipsum",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "images": [
