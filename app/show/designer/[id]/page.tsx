@@ -47,14 +47,14 @@ export default function DesignerDetailPage({ params }: { params: { id: string } 
 
             {/* Info */}
             <div className="flex flex-col justify-top mx-auto overflow-hidden">
-              <h1 className="font-serif text-2xl md:text-4xl font-bold mb-6">{designer.name}</h1>
+              <h1 className="font-serif text-2xl md:text-4xl font-bold mb-4">{designer.name}</h1>
 
               <div className="space-y-6">
                 <div>
                   <h2 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-2">
                     Biography
                   </h2>
-                  <p className="text-lg leading-relaxed">{designer.bio}</p>
+                  <p className="text-md leading-relaxed">{designer.bio}</p>
                 </div>
               </div> 
             </div>
