@@ -32,7 +32,7 @@ export default function HomePage() {
           <h2 className="font-serif text-2xl font-semibold mb-6">Event Date</h2>
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Dates */}
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-1 gap-4">
               <Card className="p-4 md:p-6 bg-muted">
                 <div className="space-y-6">
                   <h3 className="font-semibold text-lg mb-2">Fashion Show</h3>
