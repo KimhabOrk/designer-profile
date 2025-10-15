@@ -54,6 +54,13 @@
       "image": "/designers/chun-sinadanisa.jpg",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "collectionConcept": ""
+    },
+    {
+      "id": "designer-6",
+      "name": "Em Marie",
+      "image": "https://ik.imagekit.io/digiv3rse/assets/designers/em-marie.jpg?updatedAt=1760509830156",
+      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+      "collectionConcept": ""
     }
   ],
   "garments": [
