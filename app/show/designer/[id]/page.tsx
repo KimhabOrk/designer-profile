@@ -35,19 +35,19 @@ export default function DesignerDetailPage({ params }: { params: { id: string } 
           </Link>
 
           {/* Designer Profile */}
-          <div className="grid grid-cols-2 gap-4 md:8 mb-12">
+          <div className="grid grid-cols-2 gap-4 md:gap-8 mb-12">
             {/* Image */}
             <div className="">
               <Card className="overflow-hidden p-0">
-                <div className="relative aspect-[3/4] bg-muted">
+                <div className="relative aspect-[2/3] bg-muted">
                   <Image src={designer.image || "/placeholder-designer.jpg"} alt={designer.name} fill className="object-cover" />
                 </div>
               </Card>
             </div>
 
             {/* Info */}
-            <div className="flex flex-col justify-top mx-auto">
-              <h1 className="font-serif text-4xl md:text-5xl font-bold mb-6">{designer.name}</h1>
+            <div className="flex flex-col justify-top mx-auto overflow-hidden">
+              <h1 className="font-serif text-2xl md:text-4xl font-bold mb-6">{designer.name}</h1>
 
               <div className="space-y-6">
                 <div>
