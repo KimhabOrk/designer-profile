@@ -57,7 +57,7 @@ export default function HomePage() {
             </div>
             {/* Location */}
             <Card className="p-4 md:p-6 bg-muted">
-              <h2 className="font-serif text-2xl font-semibold mb-6">
+              <h2 className="font-serif text-2xl font-semibold mb-4">
                 Location
               </h2>
               <Link
@@ -71,7 +71,7 @@ export default function HomePage() {
                       className="object-cover animate-bounce"
                     />
                   </div>
-                  <p className="text-xl font-medium mb-6">
+                  <p className="text-xl font-medium mb-4">
                     {festival.location}
                   </p>
                 </div>
