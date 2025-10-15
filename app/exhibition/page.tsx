@@ -23,9 +23,6 @@ export default function FashionExhibitionPage() {
               </Button>
             </Link>
             <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-bold mb-4">Fashion Exhibition</h1>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl">
-              Explore curated garments from October 31st to November 2nd
-            </p>
           </div>
 
           {/* Garments Grid */}
@@ -43,7 +40,7 @@ export default function FashionExhibitionPage() {
                   </div>
                   <div className="p-5">
                     <p className="text-sm md:text-lg text-muted-foreground mb-1">{garment.designerName}</p>
-                    <h3 className="font-semibold text-xl md:text-2xl group-hover:text-primary transition-colors">{garment.name}</h3>
+                    <h3 className="text-lg md:text-xl group-hover:text-primary transition-colors">{garment.name}</h3>
                   </div>
                 </div>
               </Link>

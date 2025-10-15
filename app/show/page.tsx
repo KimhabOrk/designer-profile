@@ -22,10 +22,7 @@ export default function FashionShowPage() {
                 Go Back
               </Button>
             </Link>
-            <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-bold mb-4">Fashion Show Designers</h1>
-            <p className="text-lg md:text-2xl text-muted-foreground max-w-2xl">
-              Meet the visionary designers showcasing their collections on October 31st
-            </p>
+            <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-bold mb-4">Fashion Show</h1>
           </div>
 
           {/* Designers Grid */}

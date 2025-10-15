@@ -58,7 +58,7 @@ export default function HomePage() {
               <h2 className="font-serif text-2xl font-semibold mb-6">Location</h2>
               <Link href="https://maps.app.goo.gl/nn8tRwJVq3tqJG7NA" className="flex justify-start">
                 <div className="flex items-center mx-auto justify-center gap-2">
-                  <div className="h-8 w-8 md:h-10 md:w-10 rounded-lg">
+                  <div className="h-6 w-6 md:h-10 md:w-10 rounded-lg">
                     <Image src="/googleMap.png" className="object-cover animate-bounce" />
                   </div>
                   <p className="text-lg font-medium mb-6">{festival.location}</p>
@@ -92,7 +92,7 @@ export default function HomePage() {
                     className="object-cover transition-transform group-hover:scale-105 rounded-xl"
                   />
                   <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-4 md:p-6 text-white">
-                    <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-2 md:p-4 max-w-md text-center">
+                    <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-4 md:p-6 max-w-md text-center">
                       <h2 className="font-serif text-2xl md:text-3xl font-bold mb-3">Fashion Show</h2>
                       <Button variant="default" className="group-hover:gap-3 transition-all">
                         View Designers
@@ -115,7 +115,7 @@ export default function HomePage() {
                     className="object-cover transition-transform group-hover:scale-105 rounded-xl"
                   />
                   <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-4 md:p-6 text-white">
-                    <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-2 md:p-4 max-w-md text-center">
+                    <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-4 md:p-6 max-w-md text-center">
                       <h2 className="font-serif text-2xl md:text-3xl font-bold mb-3">Fashion Exhibition</h2>
                       <Button variant="default" className="group-hover:gap-3 transition-all">
                         View Exhibition
