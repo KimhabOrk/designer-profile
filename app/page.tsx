@@ -28,40 +28,43 @@ export default function HomePage() {
       {/* Event Details Section */}
       <section className="py-16 px-4 md:px-6 lg:px-8">
         <div className="container mx-auto">
+          <h2 className="font-serif text-2xl font-semibold">Event Date</h2>
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Dates */}
+            <div className="grid grid-cols-2 gap-4">
             <Card className="p-4 md:p-6 bg-muted">
-              <div className="flex items-start gap-4 mb-6">
-                <div className="p-3 bg-primary/10 rounded-lg">
-                  <Calendar className="h-6 w-6 text-primary" />
-                </div>
-                <h2 className="font-serif text-2xl font-semibold">Upcoming Events</h2>
-              </div>
               <div className="space-y-6">
-                {events.map((event) => (
-                  <div key={event.id} className="border-l-2 border-primary/20 pl-6">
-                    <h3 className="font-semibold text-lg mb-2">{event.name}</h3>
+                  <div className="border-l-2 border-primary/20 pl-6">
+                    <h3 className="font-semibold text-lg mb-2">Fashion Show</h3>
                     <p className="text-muted-foreground text-sm mb-1">
-                      {event.dateRange || `${event.date}`}
+                      31st, October, 2025
                     </p>
                     <p className="text-muted-foreground text-sm mb-1">
-                      Start: <span className="font-semibold">{event.time}</span>
+                      Start: <span className="font-semibold">7:00 PM</span>
                     </p>
-                    <p className="text-sm text-muted-foreground">{event.description}</p>
                   </div>
-                ))}
               </div>
             </Card>
-
+            <Card className="p-4 md:p-6 bg-muted">
+              <div className="space-y-6">
+                  <div className="border-l-2 border-primary/20 pl-6">
+                    <h3 className="font-semibold text-lg mb-2">Fashion Exhibition</h3>
+                    <p className="text-muted-foreground text-sm mb-1">
+                      From 31st, October to 2nd, November, 2025
+                    </p>
+                  </div>
+              </div>
+            </Card>
+            </div>
             {/* Location */}
             <Card className="p-4 md:p-6 bg-muted">
               <h2 className="font-serif text-2xl font-semibold mb-6">Location</h2>
               <Link href="https://maps.app.goo.gl/nn8tRwJVq3tqJG7NA" className="flex justify-start">
                 <div className="flex items-center mx-auto justify-center gap-2">
-                  <div className="h-6 w-6 md:h-10 md:w-10 rounded-lg">
+                  <div className="h-5 w-5 md:h-10 md:w-10 rounded-lg">
                     <Image src="/googleMap.png" className="object-cover animate-bounce" />
                   </div>
-                  <p className="text-lg font-medium mb-6">{festival.location}</p>
+                  <p className="text-xl font-medium mb-6">{festival.location}</p>
                 </div>
               </Link>
               <div className="relative aspect-video rounded-lg overflow-hidden bg-muted">

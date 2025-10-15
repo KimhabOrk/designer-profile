@@ -9,13 +9,13 @@
       "id": "fashion-show",
       "name": "Fashion Show",
       "date": "31st of October",
-      "time": "7:00 PM",
+      "time": "Start: 7:00 PM",
       "description": "The debut of a New Generation of designers and the birth of their legacy."
     },
     {
       "id": "fashion-exhibition",
       "name": "Fashion Exhibition",
-      "dateRange": "31st of October to 02nd of November",
+      "dateRange": "From 31st of October to 02nd of November",
       "description": "A curated exhibition showcasing artistic, avant-garde and innovative garments."
     }
   ],
@@ -23,35 +23,35 @@
     {
       "id": "designer-1",
       "name": "Pon Chamreun",
-      "image": "",
+      "image": "/designers/pon-chamreun.jpg",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "collectionConcept": ""
     },
     {
       "id": "designer-2",
       "name": "Nath Teresa",
-      "image": "",
+      "image": "/designers/nath-teresa.jpg",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "collectionConcept": ""
     },
     {
       "id": "designer-3",
       "name": "Lai Engchhing",
-      "image": "",
+      "image": "/designers/lai-engchhing.jpg",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "collectionConcept": ""
     },
     {
       "id": "designer-4",
       "name": "Chea Tichheang",
-      "image": "",
+      "image": "/designers/chea-tichheang.jpg",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "collectionConcept": ""
     },
     {
       "id": "designer-5",
       "name": "Chun Sinadanisa",
-      "image": "",
+      "image": "/designers/chun-sinadanisa.jpg",
       "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
       "collectionConcept": ""
     }
