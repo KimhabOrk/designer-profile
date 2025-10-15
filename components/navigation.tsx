@@ -27,7 +27,7 @@ export function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className={`text-sm tracking-wide transition-colors hover:text-foreground/80 ${
+                className={`text-sm tracking-wide transition-colors hover:text-foreground/90 ${
                   pathname === link.href ? "text-foreground font-medium" : "text-muted-foreground"
                 }`}
               >
