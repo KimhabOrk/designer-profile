@@ -1,13 +1,13 @@
-import Link from "next/link"
-import Image from "next/image"
-import { Navigation } from "@/components/navigation"
-import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
-import { Calendar, MapPin, ArrowRight } from "lucide-react"
-import eventsData from "@/data/events.json"
+import Link from "next/link";
+import Image from "next/image";
+import { Navigation } from "@/components/navigation";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Calendar, MapPin, ArrowRight } from "lucide-react";
+import eventsData from "@/data/events.json";
 
 export default function HomePage() {
-  const { festival, events } = eventsData
+  const { festival, events } = eventsData;
 
   return (
     <div className="min-h-screen">
@@ -20,7 +20,8 @@ export default function HomePage() {
             {festival.name}
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto text-balance">
-            Celebrating innovation, creativity, and the future of Cambodian fashion
+            Celebrating innovation, creativity, and the future of Cambodian
+            fashion
           </p>
         </div>
       </section>
@@ -32,39 +33,47 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Dates */}
             <div className="grid grid-cols-2 gap-4">
-            <Card className="p-4 md:p-6 bg-muted">
-              <div className="space-y-6">
-                  <div className="border-l-2 border-primary/20 pl-6">
-                    <h3 className="font-semibold text-lg mb-2">Fashion Show</h3>
-                    <p className="text-muted-foreground text-sm mb-1">
-                      31st, October, 2025
-                    </p>
-                    <p className="text-muted-foreground text-sm mb-1">
-                      Start: <span className="font-semibold">7:00 PM</span>
-                    </p>
-                  </div>
-              </div>
-            </Card>
-            <Card className="p-4 md:p-6 bg-muted">
-              <div className="space-y-6">
-                  <div className="border-l-2 border-primary/20 pl-6">
-                    <h3 className="font-semibold text-lg mb-2">Fashion Exhibition</h3>
-                    <p className="text-muted-foreground text-sm mb-1">
-                      From 31st, October to 2nd, November, 2025
-                    </p>
-                  </div>
-              </div>
-            </Card>
+              <Card className="p-4 md:p-6 bg-muted">
+                <div className="space-y-6">
+                  <h3 className="font-semibold text-lg mb-2">Fashion Show</h3>
+                  <p className="text-muted-foreground text-sm mb-1">
+                    31st, October, 2025
+                  </p>
+                  <p className="text-muted-foreground text-sm mb-1">
+                    Start: <span className="font-semibold">7:00 PM</span>
+                  </p>
+                </div>
+              </Card>
+              <Card className="p-4 md:p-6 bg-muted">
+                <div className="space-y-6">
+                  <h3 className="font-semibold text-lg mb-2">
+                    Fashion Exhibition
+                  </h3>
+                  <p className="text-muted-foreground text-sm mb-1">
+                    From 31st, October to 2nd, November, 2025
+                  </p>
+                </div>
+              </Card>
             </div>
             {/* Location */}
             <Card className="p-4 md:p-6 bg-muted">
-              <h2 className="font-serif text-2xl font-semibold mb-6">Location</h2>
-              <Link href="https://maps.app.goo.gl/nn8tRwJVq3tqJG7NA" className="flex justify-start">
+              <h2 className="font-serif text-2xl font-semibold mb-6">
+                Location
+              </h2>
+              <Link
+                href="https://maps.app.goo.gl/nn8tRwJVq3tqJG7NA"
+                className="flex justify-start"
+              >
                 <div className="flex items-center mx-auto justify-center gap-2">
                   <div className="h-5 w-5 md:h-10 md:w-10 rounded-lg">
-                    <Image src="/googleMap.png" className="object-cover animate-bounce" />
+                    <Image
+                      src="/googleMap.png"
+                      className="object-cover animate-bounce"
+                    />
                   </div>
-                  <p className="text-xl font-medium mb-6">{festival.location}</p>
+                  <p className="text-xl font-medium mb-6">
+                    {festival.location}
+                  </p>
                 </div>
               </Link>
               <div className="relative aspect-video rounded-lg overflow-hidden bg-muted">
@@ -96,8 +105,13 @@ export default function HomePage() {
                   />
                   <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-4 md:p-6 text-white">
                     <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-4 md:p-6 max-w-md text-center">
-                      <h2 className="font-serif text-2xl md:text-3xl font-bold mb-3">Fashion Show</h2>
-                      <Button variant="default" className="group-hover:gap-3 transition-all">
+                      <h2 className="font-serif text-2xl md:text-3xl font-bold mb-3">
+                        Fashion Show
+                      </h2>
+                      <Button
+                        variant="default"
+                        className="group-hover:gap-3 transition-all"
+                      >
                         View Designers
                         <ArrowRight className="h-4 w-4 ml-2" />
                       </Button>
@@ -119,8 +133,13 @@ export default function HomePage() {
                   />
                   <div className="absolute inset-0 flex flex-col items-center justify-center mx-auto p-4 md:p-6 text-white">
                     <div className="bg-black/40 backdrop-blur-xl rounded-2xl p-4 md:p-6 max-w-md text-center">
-                      <h2 className="font-serif text-2xl md:text-3xl font-bold mb-3">Fashion Exhibition</h2>
-                      <Button variant="default" className="group-hover:gap-3 transition-all">
+                      <h2 className="font-serif text-2xl md:text-3xl font-bold mb-3">
+                        Fashion Exhibition
+                      </h2>
+                      <Button
+                        variant="default"
+                        className="group-hover:gap-3 transition-all"
+                      >
                         View Exhibition
                         <ArrowRight className="h-4 w-4 ml-2" />
                       </Button>
@@ -141,5 +160,5 @@ export default function HomePage() {
       </footer>
       */}
     </div>
-  )
+  );
 }
