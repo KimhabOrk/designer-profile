@@ -35,11 +35,11 @@ export default function DesignerDetailPage({ params }: { params: { id: string } 
           </Link>
 
           {/* Designer Profile */}
-          <div className="grid grid-cols-2 gap-4 md:gap-8 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 mb-12">
             {/* Image */}
             <div className="">
               <Card className="overflow-hidden p-0">
-                <div className="relative aspect-[2/3] bg-muted">
+                <div className="relative aspect-square md:aspect-[3/4] bg-muted">
                   <Image src={designer.image || "/placeholder-designer.jpg"} alt={designer.name} fill className="object-cover" />
                 </div>
               </Card>
@@ -51,19 +51,19 @@ export default function DesignerDetailPage({ params }: { params: { id: string } 
 
               <div className="space-y-6">
                 <div>
-                  <h2 className="text-sm font-semibold uppercase tracking-wider text-muted-foreground mb-2">
+                  <h2 className="text-sm md:text-md font-semibold uppercase tracking-wider text-muted-foreground mb-2">
                     Biography
                   </h2>
-                  <p className="text-md leading-relaxed">{designer.bio}</p>
+                  <p className="text-md md:text-lg leading-relaxed">{designer.bio}</p>
                 </div>
               </div> 
             </div>
           </div>
           <div className="px-6 md:px-8 py-10">
-            <h2 className="text-md font-semibold uppercase tracking-wider text-muted-foreground mb-2">
+            <h2 className="text-md md:text-lg font-semibold uppercase tracking-wider text-muted-foreground mb-2">
               Collection Concept
             </h2>
-            <p className="text-lg leading-relaxed">{designer.collectionConcept}</p>
+            <p className="text-lg md:text-xl leading-relaxed">{designer.collectionConcept}</p>
           </div>
         </div>
       </div>
