@@ -59,12 +59,16 @@ export default function DesignerDetailPage({ params }: { params: { id: string } 
               </div> 
             </div>
           </div>
+          {designer.collectionConcept ? (
           <div className="px-6 md:px-8 py-10">
             <h2 className="text-md md:text-lg font-semibold uppercase tracking-wider text-muted-foreground mb-2">
               Collection Concept
             </h2>
             <p className="text-lg md:text-xl leading-relaxed">{designer.collectionConcept}</p>
           </div>
+          ) : (
+            <></>
+          )}
         </div>
       </div>
     </div>

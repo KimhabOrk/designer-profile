@@ -5,70 +5,171 @@
     "mapImage": "/map.jpg"
   },
   "events": [
-    {
-      "id": "fashion-show",
-      "name": "Fashion Show",
-      "date": "31st of October",
-      "time": "Start: 7:00 PM",
-      "description": "The debut of a New Generation of designers and the birth of their legacy."
-    },
-    {
-      "id": "fashion-exhibition",
-      "name": "Fashion Exhibition",
-      "dateRange": "From 31st of October to 02nd of November",
-      "description": "A curated exhibition showcasing artistic, avant-garde and innovative garments."
-    }
-  ],
+  {
+    "id": "fashion-show",
+    "name": "Fashion Show",
+    "date": "31st of October",
+    "time": "Start: 7:30 PM",
+    "description": "The debut of a New Generation of designers and the birth of their legacy."
+  },
+  {
+    "id": "fashion-exhibition",
+    "name": "Fashion Exhibition",
+    "dateRange": "From 31st of October to 02nd of November",
+    "description": "A curated exhibition showcasing artistic, avant-garde and innovative garments."
+  }],
   "designers": [
-    {
-      "id": "designer-1",
-      "name": "Pon Chamreun",
-      "image": "/designers/pon-chamreun.jpg",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
-      "collectionConcept": ""
-    },
-    {
-      "id": "designer-2",
-      "name": "Nath Teresa",
-      "image": "/designers/nath-teresa.jpg",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
-      "collectionConcept": ""
-    },
-    {
-      "id": "designer-3",
-      "name": "Lai Engchhing",
-      "image": "/designers/lai-engchhing.jpg",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
-      "collectionConcept": ""
-    },
-    {
-      "id": "designer-4",
-      "name": "Chea Tichheang",
-      "image": "/designers/chea-tichheang.jpg",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
-      "collectionConcept": ""
-    },
-    {
-      "id": "designer-5",
-      "name": "Chun Sinadanisa",
-      "image": "/designers/chun-sinadanisa.jpg",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
-      "collectionConcept": ""
-    },
-    {
-      "id": "designer-6",
-      "name": "Em Marie",
-      "image": "https://ik.imagekit.io/digiv3rse/assets/designers/em-marie.jpg?updatedAt=1760509830156",
-      "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
-      "collectionConcept": ""
-    }
-  ],
+  {
+    "id": "pon-chamreun",
+    "name": "Pon Chamreun",
+    "image": "/designers/pon-chamreun.jpg",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+    "collectionConcept": ""
+  },
+  {
+    "id": "nath-teresa",
+    "name": "Nath Teresa",
+    "image": "/designers/nath-teresa.jpg",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+    "collectionConcept": ""
+  },
+  {
+    "id": "lai-engchhing",
+    "name": "Lai Engchhing",
+    "image": "/designers/lai-engchhing.jpg",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+    "collectionConcept": ""
+  },
+  {
+    "id": "chea-tichheang",
+    "name": "Chea Tichheang",
+    "image": "/designers/chea-tichheang.jpg",
+    "bio": "I’ve always been drawn to things that feel dark, powerful, and beautiful in their own way something aesthetic but strong. I grew up as a boy who kept everything to myself, never really sharing my pain with anybody around me. Instead of breaking me, that silence shaped me. Every moment I held inside became a part of my strength. The darkness I carried didn’t crush me; it built me. Now, the power I find in quiet and in shadows is what defines me.",
+    "collectionConcept": "They move through the dark like whispers with knives, faces hidden behind the ghosts of who they used to be. Pain carved out their hearts long ago, leaving only hunger for money — cold, endless, and sharp. If you can pay, they’ll walk past you. If you can’t, they’ll smile once before the light goes out. No mercy. No feeling. Just the sound of coins and the quiet after your last breath."
+  },
+  {
+    "id": "chun-sinadanisa",
+    "name": "Chun Sinadanisa",
+    "image": "/designers/chun-sinadanisa.jpg",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+    "collectionConcept": ""
+  },
+  {
+    "id": "em-marie",
+    "name": "Em Marie",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/em-marie.jpg?updatedAt=1760509830156",
+    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
+    "collectionConcept": ""
+  },
+  {
+    "id": "men-hengsreyleap",
+    "name": "Men HengSreyleap",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/men-hengsreyleap.png",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "le-malis",
+    "name": "Le Malis",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/le-malis.heic",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "van-sovandy",
+    "name": "Van Sovandy",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/van-sovandy.jpg",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "van-monynich",
+    "name": "Van Monynich",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/van-monynich.jpg",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "seoun-pahna",
+    "name": "Seoun Pahna",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/seoun-pahna.heic",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "ong-sereyrotha",
+    "name": "Ong Sereyrotha",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/ong-sereyrotha.jpg",
+    "bio": "For me, fashion has always been more than clothing, it’s emotion, transformation, and storytelling. I want to see women as beautiful in different ways not by fitting into a standard, but by exaggerating their essence and embracing their fearless side. My work is about power and vulnerability existing together where beauty can be dramatic, imperfect, and unapologetically real. I design for women who are bold enough to be seen, to express their emotions through what they wear, and to turn their own story into art. Every piece I create reflects a part of me,my curiosity, my intensity, and my desire to show that beauty can come from rebellion, confidence, and truth.",
+    "collectionConcept": ""
+  },
+  {
+    "id": "sou-tammydiane",
+    "name": "Sou Tammydiane",
+    "image": "",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "hin-saody",
+    "name": "Hin Saody",
+    "image": "",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "tang-chinhhav",
+    "name": "Tang Chinhhav",
+    "image": "",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "uch-chanleakhna",
+    "name": "Uch Chanleakhna",
+    "image": "",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "rith-sokratanak",
+    "name": "Rith Sokratanak",
+    "image": "",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "bio": "",
+    "collectionConcept": ""
+  },
+  {
+    "id": "",
+    "name": "",
+    "image": "",
+    "bio": "",
+    "collectionConcept": ""
+  }],
   "garments": [
-
-
     {
       "id": "garment-1",
-      "designerId": "designer-1",
+      "designerId": "pon-chamreun",
       "designerName": "Pon Chamreun",
       "designerImage": "/designers/pon-chamreun.jpg",
       "name": "Lorem Ipsum",
@@ -81,7 +182,7 @@
     },
     {
       "id": "garment-2",
-      "designerId": "designer-1",
+      "designerId": "pon-chamreun",
       "designerName": "Pon Chamreun",
       "designerImage": "/designers/pon-chamreun.jpg",
       "name": "Lorem Ipsum",
@@ -94,7 +195,7 @@
     },
     {
       "id": "garment-3",
-      "designerId": "designer-4",
+      "designerId": "chea-tichheang",
       "designerName": "Chea Tichheang",
       "designerImage": "/designers/chea-tichheang.jpg",
       "name": "Lorem Ipsum",
@@ -105,7 +206,7 @@
     },
     {
       "id": "garment-4",
-      "designerId": "designer-2",
+      "designerId": "nath-teresa",
       "designerName": "Nath Teresa",
       "designerImage": "/designers/nath-teresa.jpg",
       "name": "Lorem Ipsum",
@@ -116,7 +217,7 @@
     },
     {
       "id": "garment-5",
-      "designerId": "",
+      "designerId": "pheng-vanton",
       "designerName": "Pheng Vanton",
       "designerImage": "",
       "name": "Lorem Ipsum",
