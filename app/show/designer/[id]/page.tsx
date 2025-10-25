@@ -51,7 +51,7 @@ export default function DesignerDetailPage({ params }: { params: { id: string } 
 
               <div className="space-y-6">
                 <div>
-                  <h2 className="text-sm md:text-md font-semibold uppercase tracking-wider text-muted-foreground mb-2">
+                  <h2 className="text-md md:text-lg font-semibold uppercase tracking-wider text-muted-foreground mb-2">
                     Biography
                   </h2>
                   <p className="text-md md:text-lg leading-relaxed">{designer.bio}</p>
@@ -60,11 +60,11 @@ export default function DesignerDetailPage({ params }: { params: { id: string } 
             </div>
           </div>
           {designer.collectionConcept ? (
-          <div className="flex flex-col mx-auto items-center justify-center text-start py-6 md:px-8 md:py-10">
+          <div className="flex flex-col mx-auto items-center justify-start text-start py-4 md:px-8 md:py-10">
             <h2 className="text-md md:text-lg font-semibold uppercase tracking-wider text-muted-foreground mb-2">
               Collection Concept
             </h2>
-            <p className="text-lg md:text-xl leading-relaxed">{designer.collectionConcept}</p>
+            <p className="text-md md:text-lg leading-relaxed">{designer.collectionConcept}</p>
           </div>
           ) : (
             <></>
