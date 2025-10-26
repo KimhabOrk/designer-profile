@@ -22,7 +22,8 @@ export default function FashionShowPage() {
                 Go Back
               </Button>
             </Link>
-            <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-bold mb-4">Fashion Show</h1>
+            <h1 className="font-serif text-3xl md:text-5xl lg:text-6xl font-bold mb-2 md:mb-4">Fashion Show</h1>
+            <h2 className="font-serif text-xl md:text-3xl lg:text-4xl font-bold mb-4 text-muted-foreground">Designers</h2>
           </div>
 
           {/* Designers Grid */}
