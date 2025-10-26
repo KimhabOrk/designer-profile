@@ -22,9 +22,9 @@
   {
     "id": "pon-chamreun",
     "name": "Pon Chamreun",
-    "image": "/designers/pon-chamreun.jpg",
-    "bio": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consectetur at velit quis pharetra. Suspendisse faucibus egestas ex in semper. Vivamus congue magna et turpis",
-    "collectionConcept": ""
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/pon-chamreun.jpg",
+    "bio": "Through fabric, I reflect my thoughts, pain and hope. Each design becomes my voice, transforming personal stories into innovation that inspires others to see the beauty in creation.",
+    "collectionConcept": "Inspired by the stillness of the desert, Ethereal Silence explores the quiet harmony between humanity and nature. The collection reflects the serenity found in simplicity, the slow movement of sand, the gentle flow of wind, and the calm presence that exists even in vast emptiness."
   },
   {
     "id": "nath-teresa",
@@ -79,7 +79,7 @@
     "id": "van-sovandy",
     "name": "Van Sovandy",
     "image": "https://ik.imagekit.io/digiv3rse/assets/designers/van-sovandy.jpg",
-    "bio": "",
+    "bio": "Fashion, from my own fascination, involves with passion, curiosity and transformation. Whatever exists in this world has been the power to embrace the creativity with purpose. Expressing personality throughout fashion, furthermore, has paved my way for new ideas to emerge new styles which have profound impacts on diversities of human bodies and the world with intention. That’s what I relate and explore more deeply in this field. “Passion is the abstract ideas of art involved with fashion, however, involvement turns every step to reality.”",
     "collectionConcept": ""
   },
   {
@@ -106,63 +106,49 @@
   {
     "id": "sou-tammydiane",
     "name": "Sou Tammydiane",
-    "image": "",
-    "bio": "",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/sou-tammydiane.jpg",
+    "bio": "Fashion, to me, is more than design; it’s the language of emotion and identity. And with each creation, I seek to tell a story one of strength, softness, and the enduring beauty of being a woman. I design with one vision at heart. I want to see women elegant. To me, elegance is not just about clothing; it’s about confidence, grace, and the quiet power that lives in every woman. Through my designs, I aim to reveal that inner beauty to let it shine through silhouettes that flow naturally, fabrics that whisper sophistication, and details that feel both modern and timeless. Every piece is crafted to make a woman feel confident, graceful, and effortlessly captivating as if she were born to embody elegance itself.",
     "collectionConcept": ""
   },
   {
     "id": "hin-saody",
     "name": "Hin Saody",
-    "image": "",
-    "bio": "",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/hin-saody.jpg",
+    "bio": "Hin Saody is a Phnom Penh based designer student known for his beautiful, exaggerated, and dreamy elegance. Inspired by nature and culture, his work blends tradition with imagination, creating pieces that feel both timeless and provoking.",
     "collectionConcept": ""
   },
   {
     "id": "tang-chinhhav",
     "name": "Tang Chinhhav",
-    "image": "",
-    "bio": "",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/tang-chinhhav.jpg",
+    "bio": "Chinhhav is a Cambodian fashion designer whose work is dramatic, artistic, and grounded in nature. He designs inspiration nature and the beauty of  forms that grow, fade, and transform. Influenced by the  energy of late 2000s fashion, he designs for women who want to feel empowered. His work isn’t just for worn ,its arts.",
     "collectionConcept": ""
   },
   {
     "id": "uch-chanleakhna",
     "name": "Uch Chanleakhna",
-    "image": "",
-    "bio": "",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/ouch-chanleakhna.jpg",
+    "bio": "A beginner fashion student who believes in quiet power ,the kind of strength that doesn’t need to be loud, only real. She’s still learning, exploring, and finding her voice through design. Every sketch, every stitch, and every mistake becomes a part of her growth. For her, fashion isn’t just about clothing , it’s about turning emotion into elegance and silence into strength.",
     "collectionConcept": ""
   },
   {
     "id": "rith-sokratanak",
     "name": "Rith Sokratanak",
-    "image": "",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/rith-sokratanak.jpg",
+    "bio": "I’m a person exploring how clothes can express identity, emotion, and unique kinds of beauty. My work combines storytelling, texture, and experimentation to challenge traditional ideas of romance and self expression. I’m just starting out, but I’m guided by curiosity, creativity, and a personal love for design. Currently overdressed for every occasion.",
+    "collectionConcept": ""
+  },
+  {
+    "id": "rith-chanmonyta",
+    "name": "Rith Chanmonyta",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/nyta.jpg",
     "bio": "",
     "collectionConcept": ""
   },
   {
-    "id": "",
-    "name": "",
-    "image": "",
-    "bio": "",
-    "collectionConcept": ""
-  },
-  {
-    "id": "",
-    "name": "",
-    "image": "",
-    "bio": "",
-    "collectionConcept": ""
-  },
-  {
-    "id": "",
-    "name": "",
-    "image": "",
-    "bio": "",
-    "collectionConcept": ""
-  },
-  {
-    "id": "",
-    "name": "",
-    "image": "",
+    "id": "ouk-reaksmey",
+    "name": "Ouk Reaksmey",
+    "image": "https://ik.imagekit.io/digiv3rse/assets/designers/reaksmey.jpg",
     "bio": "",
     "collectionConcept": ""
   }],
